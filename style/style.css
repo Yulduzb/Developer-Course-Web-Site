@@ -1,0 +1,114 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #343a40;
+    border-radius: 15px;
+    
+}
+
+.navtxt{
+    color: #f2f2f2;
+    text-decoration: none;
+    
+}
+
+    .resimSlider {
+        max-width: 100% !important;
+        max-height: 500px !important; /* veya herhangi bir yükseklik değeri */
+        height: auto !important;
+        margin-top: 140px;
+}
+
+.nav-aLink{
+    padding: 1rem 2rem;
+	text-transform: uppercase;
+  color:#f2f2f2 !important;
+	min-width: 30px;
+	margin: auto;
+  cursor: pointer;
+}
+
+.nav-aLink:hover {
+  border-bottom: 2px solid rgb(33, 34, 33);
+  transform: translateY(-10px);
+  transition: all 3s;
+}
+
+.aboutUs{
+    background-color: #f2f2f2;
+}
+.ayrac{
+    border: none;
+    border-top:3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.ibeyaz{
+    color:#343a40 ;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #fff;
+    background-color: #fff;
+}
+
+.igri{
+    color:#343a40 ;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.btnColor{
+    color:#f2f2f2 !important;
+}
+
+.ekipCard>img:hover{
+opacity: 0.8;
+}
+
+
+.courses{
+    background-color: #f2f2f2;
+}
+.card-img{
+    opacity: 0.10 !important;
+}
+.card-title-cr{
+    color: #f2f2f2 !important;
+    margin-top: 100px !important;
+    font-size:  25px !important;
+}
+.card-title-cr:hover{
+    color:rgba(202, 211, 200, 0.667) !important;
+
+}
+.btnRenk{
+    border:#343a40 !important;
+    background-color: #343a40 !important;
+
+}
+.btnRenk:hover{
+    transition: ease-in 1s;
+    box-shadow: inset 300px 0 0 0 rgb(202, 207, 207);
+    color: rgb(12, 12, 12);
+
+}
+
+.fot{
+    background-color: #343a40 !important;
+}
